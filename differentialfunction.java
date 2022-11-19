@@ -12,3 +12,5 @@ public class file {
     public file(String filename) {
         file = new File(filename);
     }
+
+    public void start() throws IOException {
