@@ -26,3 +26,4 @@ public class file {
                 values[i] = Double.parseDouble(bufferedReader.readLine());
             }
         } catch (IOException e) {
+            e.printStackTrace();
