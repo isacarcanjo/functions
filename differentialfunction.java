@@ -33,3 +33,5 @@ public class file {
     public double[] getValues() {
         return values;
     }
+
+    public double[] calc(int n) throws Exception {
