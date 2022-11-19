@@ -23,3 +23,4 @@ public class file {
             }
             values = new double[size];
             for(int i = 0; i < size; i++) {
+                values[i] = Double.parseDouble(bufferedReader.readLine());
