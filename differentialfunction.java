@@ -46,3 +46,5 @@ public class file {
 
         return result;
     }
+
+    public void show(double[] values) {
