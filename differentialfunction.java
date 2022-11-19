@@ -21,3 +21,4 @@ public class file {
             while((line = bufferedReader.readLine()) != null) {
                 size++;
             }
+            values = new double[size];
