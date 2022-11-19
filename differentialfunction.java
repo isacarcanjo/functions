@@ -32,3 +32,4 @@ public class file {
 
     public double[] getValues() {
         return values;
+    }
