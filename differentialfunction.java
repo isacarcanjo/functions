@@ -19,3 +19,4 @@ public class file {
             String line;
             int size = 0;
             while((line = bufferedReader.readLine()) != null) {
+                size++;
