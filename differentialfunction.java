@@ -42,3 +42,4 @@ public class file {
             for(int j = 0; j < n; j++) {
                 result[i] += values[i + j] * (n - j);
             }
+        }
