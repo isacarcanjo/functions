@@ -25,3 +25,4 @@ public class file {
             for(int i = 0; i < size; i++) {
                 values[i] = Double.parseDouble(bufferedReader.readLine());
             }
+        } catch (IOException e) {
