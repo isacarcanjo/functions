@@ -38,3 +38,4 @@ public class file {
         if(values == null) throw new Exception("Values not set");
 
         double[] result = new double[values.length];
+        for(int i = 0; i < values.length - n; i++) {
