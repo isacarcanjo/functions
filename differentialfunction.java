@@ -16,3 +16,4 @@ public class file {
     public void start() throws IOException {
 
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
+            String line;
