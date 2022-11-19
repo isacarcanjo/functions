@@ -43,3 +43,5 @@ public class file {
                 result[i] += values[i + j] * (n - j);
             }
         }
+
+        return result;
