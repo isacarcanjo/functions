@@ -17,3 +17,4 @@ public class file {
 
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
             String line;
+            int size = 0;
