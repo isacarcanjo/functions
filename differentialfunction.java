@@ -6,3 +6,4 @@ public class file {
     private double[] values;
 
     public file() {
+        file = new File("C:\\Users\\a1285\\Desktop\\Differential\\Differential.txt");
