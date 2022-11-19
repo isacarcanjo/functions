@@ -36,3 +36,5 @@ public class file {
 
     public double[] calc(int n) throws Exception {
         if(values == null) throw new Exception("Values not set");
+
+        double[] result = new double[values.length];
