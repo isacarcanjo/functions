@@ -20,3 +20,4 @@ public class file {
             int size = 0;
             while((line = bufferedReader.readLine()) != null) {
                 size++;
+            }
