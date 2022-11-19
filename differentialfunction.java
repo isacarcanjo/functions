@@ -48,3 +48,4 @@ public class file {
     }
 
     public void show(double[] values) {
+        for (double value : values) {
