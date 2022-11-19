@@ -8,3 +8,5 @@ public class file {
     public file() {
         file = new File("C:\\Users\\a1285\\Desktop\\Differential\\Differential.txt");
     }
+
+    public file(String filename) {
