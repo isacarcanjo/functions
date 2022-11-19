@@ -29,3 +29,5 @@ public class file {
             e.printStackTrace();
         }
     }
+
+    public double[] getValues() {
