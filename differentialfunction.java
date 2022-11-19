@@ -51,3 +51,4 @@ public class file {
         for (double value : values) {
             System.out.println(value);
         }
+    }
