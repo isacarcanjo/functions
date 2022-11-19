@@ -40,3 +40,4 @@ public class file {
         double[] result = new double[values.length];
         for(int i = 0; i < values.length - n; i++) {
             for(int j = 0; j < n; j++) {
+                result[i] += values[i + j] * (n - j);
