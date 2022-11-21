@@ -8,3 +8,5 @@ double calculateArea(double s){
 main() {
   print("Enter the side of the hexagon:");
   double side = double.parse(stdin.readLineSync());
+
+  print("The area of the hexagon is ${calculateArea(side)}");
