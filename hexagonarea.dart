@@ -10,3 +10,4 @@ main() {
   double side = double.parse(stdin.readLineSync());
 
   print("The area of the hexagon is ${calculateArea(side)}");
+}
