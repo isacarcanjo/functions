@@ -8,3 +8,5 @@ let fibonacci = (n: number): number => {
   }
   return fibonacci(n - 1) + fibonacci(n - 2);
 };
+
+console.log(fibonacci(6));
