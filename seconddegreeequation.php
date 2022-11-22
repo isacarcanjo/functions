@@ -1,12 +1,14 @@
 <?php
-	function calculate($x, $y, $z)
+	function solve_quad ($a, $b, $c)
 	{
-		if ($x != 0)
-			return (($y * -1) + sqrt(($y * $y) - (4 * $x * $z))) / (2 * $x);
+		$d = $b*$b - 4*$a*$c;
+		if ($d < 0)
+			return (array(0));
+		else if ($d == 0)
+			return (array(-($b/2/$a)));
 		else
-			return -1;
+			return (array(((-$b-sqrt($d))/2/$a), ((-$b+sqrt($d))/2/$a)));
 	}
-	echo calculate(0, 9, 3);
 ?>
 
 
