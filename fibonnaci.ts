@@ -10,3 +10,4 @@ let fibonacci = (n: number): number => {
 };
 
 console.log(fibonacci(6));
+
