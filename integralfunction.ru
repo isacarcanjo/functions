@@ -1,19 +1,12 @@
-puts "this is a calculator for integral"
-
-def integral(f, a, b)
-    deltax=0.001
-    deltay=f.call(0.001)
-    area = 0
-    while a < b
-        area += deltay*deltax
-        a += deltax
-    end
-    return area
+def integral(a,b,h)
+  x = a
+  result = 0
+  while x < b do
+    result += (h*(x*x+x+1))
+    x += h
+  end
+  return result
 end
-
-f = lambda {|x| (x**2-x)/(x**2-2*x+2)}
-
-puts integral(f, 0, 2)
 
 
 
