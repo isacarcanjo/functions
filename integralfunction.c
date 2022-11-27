@@ -11,3 +11,4 @@ int main()
 	printf("enter the second number: ");
 	scanf("%d",&b);
 	result = 0;
+	for(j=a;j<=b;j++)
