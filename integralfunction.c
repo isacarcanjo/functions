@@ -15,3 +15,4 @@ int main()
 	{
 		 i = j*j;
 		 result = result + i;
+	}
