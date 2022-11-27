@@ -8,3 +8,4 @@ int main()
 	int result;
 	printf("enter the first number: ");
 	scanf("%d",&a);
+	printf("enter the second number: ");
