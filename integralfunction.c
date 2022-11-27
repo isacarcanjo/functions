@@ -13,3 +13,4 @@ int main()
 	result = 0;
 	for(j=a;j<=b;j++)
 	{
+		 i = j*j;
