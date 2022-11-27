@@ -6,3 +6,4 @@ int main()
 	int i,j;
 	int a,b;
 	int result;
+	printf("enter the first number: ");
