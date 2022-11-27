@@ -14,3 +14,4 @@ int main()
 	for(j=a;j<=b;j++)
 	{
 		 i = j*j;
+		 result = result + i;
