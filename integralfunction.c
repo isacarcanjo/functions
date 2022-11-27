@@ -10,3 +10,4 @@ int main()
 	scanf("%d",&a);
 	printf("enter the second number: ");
 	scanf("%d",&b);
+	result = 0;
