@@ -7,3 +7,4 @@ int main()
 	int a,b;
 	int result;
 	printf("enter the first number: ");
+	scanf("%d",&a);
