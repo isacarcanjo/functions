@@ -16,3 +16,4 @@ int main()
 		 i = j*j;
 		 result = result + i;
 	}
+	printf("result is: %d\n", result);
