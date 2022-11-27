@@ -17,3 +17,4 @@ int main()
 		 result = result + i;
 	}
 	printf("result is: %d\n", result);
+}
