@@ -40,3 +40,4 @@ function secondDegreeEquation(a, b, c) {
   if(det < 0){
     return 'No Solution'
   }else if(det == 0){
+    x1 = (-b)/(2*a)
