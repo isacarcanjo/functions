@@ -24,3 +24,5 @@ Contoh ada 1 penyelesaian:
 
 Contoh tidak ada penyelesaian:
 No Solution
+
+RULE:
