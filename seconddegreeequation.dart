@@ -54,3 +54,4 @@ function secondDegreeEquation(a, b, c) {
     return [arr]
   }else{
     arr.push(arr2)
+    return arr
