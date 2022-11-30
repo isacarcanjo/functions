@@ -11,3 +11,5 @@ Function secondDegreeEquation akan menghitung akar dari persamaan kuadrat dengan
 
 Persamaan kuadrat adalah:
 a * x^2 + b * x + c = 0
+
+Jika tidak ada penyelesaian, maka function akan mereturn "No Solution".
