@@ -20,3 +20,4 @@ Contoh ada 2 penyelesaian:
 [ [x1, x2], [x1, x2] ]
 
 Contoh ada 1 penyelesaian:
+[ [x] ]
