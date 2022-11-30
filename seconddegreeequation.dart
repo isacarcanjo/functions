@@ -35,3 +35,4 @@ function secondDegreeEquation(a, b, c) {
   var arr = []
   var arr2 = []
   var x1 = 0
+  var x2 = 0
