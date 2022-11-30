@@ -32,3 +32,4 @@ RULE:
 */
 
 function secondDegreeEquation(a, b, c) {
+  var arr = []
