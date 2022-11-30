@@ -42,3 +42,4 @@ function secondDegreeEquation(a, b, c) {
   }else if(det == 0){
     x1 = (-b)/(2*a)
     arr.push(x1)
+  }else{
