@@ -52,3 +52,4 @@ function secondDegreeEquation(a, b, c) {
     return 'No Solution'
   }else if(arr2 == 0 && arr != 0){
     return [arr]
+  }else{
