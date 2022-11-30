@@ -57,3 +57,5 @@ function secondDegreeEquation(a, b, c) {
     return arr
   }
 }
+
+console.log(secondDegreeEquation(1, 2, 3)); // No Solution
