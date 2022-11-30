@@ -30,3 +30,5 @@ RULE:
 - Dilarang menggunakan Math.pow, Math.sqrt, atau built-in function yang lain yang mungkin dapat menyelesaikan masalah ini (seperti yang ada di bilangan.js).
 
 */
+
+function secondDegreeEquation(a, b, c) {
