@@ -60,3 +60,4 @@ function secondDegreeEquation(a, b, c) {
 
 console.log(secondDegreeEquation(1, 2, 3)); // No Solution
 console.log(secondDegreeEquation(2, 5, -3)); // [ [ -1.5 ], [ 1 ] ]
+console.log(secondDegreeEquation(2, 4, 2)); // [ [ -1 ] ]
