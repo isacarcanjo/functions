@@ -39,3 +39,4 @@ function secondDegreeEquation(a, b, c) {
   var det = (b*b)-(4*a*c)
   if(det < 0){
     return 'No Solution'
+  }else if(det == 0){
