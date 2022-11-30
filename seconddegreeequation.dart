@@ -21,3 +21,5 @@ Contoh ada 2 penyelesaian:
 
 Contoh ada 1 penyelesaian:
 [ [x] ]
+
+Contoh tidak ada penyelesaian:
