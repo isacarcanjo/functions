@@ -37,3 +37,4 @@ function secondDegreeEquation(a, b, c) {
   var x1 = 0
   var x2 = 0
   var det = (b*b)-(4*a*c)
+  if(det < 0){
