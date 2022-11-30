@@ -26,3 +26,4 @@ Contoh tidak ada penyelesaian:
 No Solution
 
 RULE:
+- WAJIB menggunakan algoritma/pseudocode (boleh tidak menggunakan algoritma/pseudocode jika sudah mengerti algoritma/pseudocode)
