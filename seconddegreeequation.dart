@@ -46,3 +46,4 @@ function secondDegreeEquation(a, b, c) {
     x1 = ((-b)+(Math.sqrt(det)))/(2*a)
     x2 = ((-b)-(Math.sqrt(det)))/(2*a)
     arr.push(x1)
+    arr2.push(x2)
