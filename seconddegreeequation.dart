@@ -33,3 +33,4 @@ RULE:
 
 function secondDegreeEquation(a, b, c) {
   var arr = []
+  var arr2 = []
