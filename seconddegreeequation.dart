@@ -50,3 +50,4 @@ function secondDegreeEquation(a, b, c) {
   }
   if(arr2 == 0 && arr == 0){
     return 'No Solution'
+  }else if(arr2 == 0 && arr != 0){
