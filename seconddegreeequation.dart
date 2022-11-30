@@ -18,3 +18,5 @@ Jika ada 1 penyelesaian, maka function akan mereturn array yang berisi 1 penyele
 
 Contoh ada 2 penyelesaian:
 [ [x1, x2], [x1, x2] ]
+
+Contoh ada 1 penyelesaian:
