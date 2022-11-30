@@ -23,3 +23,4 @@ Contoh ada 1 penyelesaian:
 [ [x] ]
 
 Contoh tidak ada penyelesaian:
+No Solution
