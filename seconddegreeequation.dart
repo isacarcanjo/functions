@@ -67,3 +67,4 @@ console.log(secondDegreeEquation(4, 4, 1)); // [ [ -0.25, -1 ] ]
 
 
 """@author: github.com/isacarcanjo"""
+
