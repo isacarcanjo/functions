@@ -49,3 +49,4 @@ function secondDegreeEquation(a, b, c) {
     arr2.push(x2)
   }
   if(arr2 == 0 && arr == 0){
+    return 'No Solution'
