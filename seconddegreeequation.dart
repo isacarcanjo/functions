@@ -10,3 +10,4 @@ Buatlah sebuah function yang menerima parameter dengan tipe data number bernama 
 Function secondDegreeEquation akan menghitung akar dari persamaan kuadrat dengan parameter tersebut.
 
 Persamaan kuadrat adalah:
+a * x^2 + b * x + c = 0
