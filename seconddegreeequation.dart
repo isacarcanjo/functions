@@ -13,3 +13,4 @@ Persamaan kuadrat adalah:
 a * x^2 + b * x + c = 0
 
 Jika tidak ada penyelesaian, maka function akan mereturn "No Solution".
+Jika ada 2 penyelesaian, maka function akan mereturn array multidimensi yang berisi 2 penyelesaian.
