@@ -28,3 +28,4 @@ func main() {
 		if err != nil {
 			fmt.Println(err)
 		}
+		b, err := strconv.Atoi(s[1])
