@@ -41,3 +41,4 @@ func main() {
 	}
 }
 func solve(a, b, c int) ([2]float64, error) {
+	Delta := math.Pow(float64(b), 2) - 4*float64(a)*float64(c)
