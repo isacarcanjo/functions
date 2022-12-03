@@ -34,3 +34,4 @@ func main() {
 		}
 		c, err := strconv.Atoi(s[2])
 		if err != nil {
+			fmt.Println(err)
