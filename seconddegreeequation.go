@@ -47,3 +47,4 @@ func solve(a, b, c int) ([2]float64, error) {
 	}
 	//calculate the two solutions
 	x1 := (-float64(b) + math.Sqrt(Delta)) / 2 * float64(a)
+	x2 := (-float64(b) - math.Sqrt(Delta)) / 2 * float64(a)
