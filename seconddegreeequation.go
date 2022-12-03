@@ -15,3 +15,4 @@ func main() {
 	file, err := os.Open("equation.txt")
 	if err != nil {
 		fmt.Println(err)
+		os.Exit(1)
