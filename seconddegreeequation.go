@@ -38,3 +38,4 @@ func main() {
 		}
 		//calculating the equation
 		fmt.Println(solve(a, b, c))
+	}
