@@ -37,3 +37,4 @@ func main() {
 			fmt.Println(err)
 		}
 		//calculating the equation
+		fmt.Println(solve(a, b, c))
