@@ -51,3 +51,4 @@ func solve(a, b, c int) ([2]float64, error) {
 	return [2]float64{x1, x2}, nil
 }
 
+
