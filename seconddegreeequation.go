@@ -26,3 +26,4 @@ func main() {
 		s := strings.Split(text, " ")
 		a, err := strconv.Atoi(s[0])
 		if err != nil {
+			fmt.Println(err)
