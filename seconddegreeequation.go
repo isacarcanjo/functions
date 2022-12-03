@@ -23,3 +23,4 @@ func main() {
 	for scanner.Scan() {
 		text := scanner.Text()
 		//parse the text
+		s := strings.Split(text, " ")
