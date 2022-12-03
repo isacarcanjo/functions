@@ -25,3 +25,4 @@ func main() {
 		//parse the text
 		s := strings.Split(text, " ")
 		a, err := strconv.Atoi(s[0])
+		if err != nil {
