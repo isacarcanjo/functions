@@ -45,3 +45,4 @@ func solve(a, b, c int) ([2]float64, error) {
 	if Delta < 0 {
 		return [2]float64{}, fmt.Errorf("Delta is less than zero, the equation has no solution")
 	}
+	//calculate the two solutions
