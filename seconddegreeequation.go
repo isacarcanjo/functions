@@ -21,3 +21,4 @@ func main() {
 	// reading the file line by line
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
+		text := scanner.Text()
