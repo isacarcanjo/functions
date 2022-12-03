@@ -11,3 +11,4 @@ import (
 )
 
 func main() {
+	// reading data from a file
