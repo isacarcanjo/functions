@@ -2,3 +2,4 @@
 package main
 
 import (
+	"bufio"
