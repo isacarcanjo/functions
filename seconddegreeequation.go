@@ -19,3 +19,4 @@ func main() {
 	}
 	defer file.Close()
 	// reading the file line by line
+	scanner := bufio.NewScanner(file)
