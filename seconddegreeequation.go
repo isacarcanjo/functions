@@ -46,3 +46,4 @@ func solve(a, b, c int) ([2]float64, error) {
 		return [2]float64{}, fmt.Errorf("Delta is less than zero, the equation has no solution")
 	}
 	//calculate the two solutions
+	x1 := (-float64(b) + math.Sqrt(Delta)) / 2 * float64(a)
