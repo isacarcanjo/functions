@@ -44,3 +44,4 @@ func solve(a, b, c int) ([2]float64, error) {
 	Delta := math.Pow(float64(b), 2) - 4*float64(a)*float64(c)
 	if Delta < 0 {
 		return [2]float64{}, fmt.Errorf("Delta is less than zero, the equation has no solution")
+	}
