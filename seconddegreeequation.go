@@ -24,3 +24,4 @@ func main() {
 		text := scanner.Text()
 		//parse the text
 		s := strings.Split(text, " ")
+		a, err := strconv.Atoi(s[0])
