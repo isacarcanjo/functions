@@ -18,3 +18,4 @@ func main() {
 		os.Exit(1)
 	}
 	defer file.Close()
+	// reading the file line by line
