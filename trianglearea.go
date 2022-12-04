@@ -21,3 +21,4 @@ func (r Rectangle) area() float64{
 
 func (c Circle) area() float64{
 	return math.Pi*c.radius*c.radius
+}
