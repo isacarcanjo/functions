@@ -18,3 +18,5 @@ type Circle struct{
 func (r Rectangle) area() float64{
 	return r.length*r.width
 }
+
+func (c Circle) area() float64{
