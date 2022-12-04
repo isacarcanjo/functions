@@ -28,3 +28,5 @@ func main(){
 		length: 40,
 		width: 20,
 	}
+
+	c1 := Circle{
