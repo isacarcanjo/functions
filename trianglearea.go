@@ -32,3 +32,5 @@ func main(){
 	c1 := Circle{
 		radius: 20,
 	}
+
+	fmt.Println("Area of Rectangle is:", r1.area())
