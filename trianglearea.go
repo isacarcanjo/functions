@@ -7,3 +7,4 @@ import ("fmt"
 	    "math")
 
 type Rectangle struct{
+	length float64
