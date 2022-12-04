@@ -36,3 +36,4 @@ func main(){
 	fmt.Println("Area of Rectangle is:", r1.area())
 	fmt.Println("Area of Circle is:", c1.area())
 }
+
