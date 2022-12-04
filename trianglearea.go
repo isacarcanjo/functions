@@ -12,3 +12,4 @@ type Rectangle struct{
 }
 
 type Circle struct{
+	radius float64
