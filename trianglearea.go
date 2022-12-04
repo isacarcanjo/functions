@@ -31,3 +31,4 @@ func main(){
 
 	c1 := Circle{
 		radius: 20,
+	}
