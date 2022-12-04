@@ -24,3 +24,4 @@ func (c Circle) area() float64{
 }
 
 func main(){
+	r1 := Rectangle{
