@@ -14,3 +14,5 @@ type Rectangle struct{
 type Circle struct{
 	radius float64
 }
+
+func (r Rectangle) area() float64{
