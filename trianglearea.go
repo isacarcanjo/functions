@@ -9,3 +9,4 @@ import ("fmt"
 type Rectangle struct{
 	length float64
 	width float64
+}
