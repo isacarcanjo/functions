@@ -5,3 +5,5 @@ package main
 
 import ("fmt"
 	    "math")
+
+type Rectangle struct{
