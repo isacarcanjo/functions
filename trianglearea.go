@@ -27,3 +27,4 @@ func main(){
 	r1 := Rectangle{
 		length: 40,
 		width: 20,
+	}
