@@ -10,3 +10,5 @@ type Rectangle struct{
 	length float64
 	width float64
 }
+
+type Circle struct{
