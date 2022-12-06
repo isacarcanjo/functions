@@ -1,10 +1,12 @@
-function integrate(coefficient, exponent){
-    let a = coefficient;
-    let b = exponent + 1;
-    let integral = (a/b);
-    return integral;
+function integral(a:number,b:number,f:any) {
+    let sum=0;
+    for(let i=a;i<=b;i++){
+        sum+=f(i);
+    }
+    return sum;
 }
-console.log(integrate(2, 2));
+
+console.log(integral(2,3,x=>x*x));
 
 
 
