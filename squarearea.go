@@ -11,3 +11,4 @@ func area(radius float64) (float64) {
 }
 
 func main() {
+	var radius float64
