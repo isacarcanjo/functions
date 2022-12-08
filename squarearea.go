@@ -14,3 +14,5 @@ func main() {
 	var radius float64
 	fmt.Print("Enter radius: ")
 	fmt.Scan(&radius)
+
+	fmt.Println("Area of the circle is", area(radius))
