@@ -16,3 +16,4 @@ func main() {
 	fmt.Scan(&radius)
 
 	fmt.Println("Area of the circle is", area(radius))
+}
