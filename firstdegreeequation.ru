@@ -11,3 +11,5 @@ puts first_degree(2, 4)
 
 
 
+
+"""@author: github.com/isacarcanjo"""
