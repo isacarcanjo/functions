@@ -10,3 +10,4 @@ puts "The first degree is"
 puts first_degree(2, 4)
 
 
+
