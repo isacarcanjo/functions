@@ -10,3 +10,4 @@ class firstDegreeEquation {
     return -this.b / this.a;
   }
 }
+let equation = new firstDegreeEquation(10, 5);
