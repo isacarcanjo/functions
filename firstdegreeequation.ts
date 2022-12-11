@@ -11,3 +11,4 @@ class firstDegreeEquation {
   }
 }
 let equation = new firstDegreeEquation(10, 5);
+console.log(equation.calculate());
