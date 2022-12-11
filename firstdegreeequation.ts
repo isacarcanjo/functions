@@ -8,3 +8,4 @@ class firstDegreeEquation {
   }
   calculate() {
     return -this.b / this.a;
+  }
