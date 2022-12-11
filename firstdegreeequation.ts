@@ -17,3 +17,4 @@ console.log(equation.calculate());
 
 
 """@author: github.com/isacarcanjo"""
+
