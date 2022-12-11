@@ -7,3 +7,4 @@ class firstDegreeEquation {
     this.b = b;
   }
   calculate() {
+    return -this.b / this.a;
