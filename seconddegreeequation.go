@@ -1,59 +1,41 @@
-
 package main
 
 import (
-	"bufio"
 	"fmt"
 	"math"
-	"os"
-	"strconv"
-	"strings"
 )
 
-func main() {
-	// reading data from a file
-	file, err := os.Open("equation.txt")
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
-	defer file.Close()
-	// reading the file line by line
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		text := scanner.Text()
-		//parse the text
-		s := strings.Split(text, " ")
-		a, err := strconv.Atoi(s[0])
-		if err != nil {
-			fmt.Println(err)
-		}
-		b, err := strconv.Atoi(s[1])
-		if err != nil {
-			fmt.Println(err)
-		}
-		c, err := strconv.Atoi(s[2])
-		if err != nil {
-			fmt.Println(err)
-		}
-		//calculating the equation
-		fmt.Println(solve(a, b, c))
+type eq struct {
+	a float64
+	b float64
+	c float64
+}
+
+func (e *eq) delta() float64 {
+	return e.b*e.b - 4*e.a*e.c
+}
+func (e *eq) compute() {
+	d := e.delta()
+	if d < 0 {
+		fmt.Println("no solutions")
+	} else if d == 0 {
+		fmt.Println(-e.b / 2)
+	} else {
+		fmt.Println((-e.b - math.Sqrt(d)) / 2*e.a)
+		fmt.Println((-e.b + math.Sqrt(d)) / 2*e.a)
 	}
 }
-func solve(a, b, c int) ([2]float64, error) {
-	Delta := math.Pow(float64(b), 2) - 4*float64(a)*float64(c)
-	if Delta < 0 {
-		return [2]float64{}, fmt.Errorf("Delta is less than zero, the equation has no solution")
-	}
-	//calculate the two solutions
-	x1 := (-float64(b) + math.Sqrt(Delta)) / 2 * float64(a)
-	x2 := (-float64(b) - math.Sqrt(Delta)) / 2 * float64(a)
-	return [2]float64{x1, x2}, nil
+
+func main() {
+	e := eq{1, 2, 1}
+	fmt.Println(e.delta())
+	e.compute()
 }
 
 
 
 
 """@author: github.com/isacarcanjo"""
+
 
 
