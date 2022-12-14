@@ -10,3 +10,4 @@ public class Main {
         double h = 0.0001;
         double der = (func(x+h) - func(x))/h;
         return der;
+    }
