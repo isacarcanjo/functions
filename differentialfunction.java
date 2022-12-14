@@ -8,3 +8,4 @@ public class Main {
     public static double diff(double x) {
 
         double h = 0.0001;
+        double der = (func(x+h) - func(x))/h;
