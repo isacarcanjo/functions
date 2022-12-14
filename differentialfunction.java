@@ -11,3 +11,5 @@ public class Main {
         double der = (func(x+h) - func(x))/h;
         return der;
     }
+
+    public static void main(String[] args) {
