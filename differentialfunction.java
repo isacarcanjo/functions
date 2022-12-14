@@ -16,3 +16,4 @@ public class Main {
 
         System.out.println(diff(0.1));
     }
+}
