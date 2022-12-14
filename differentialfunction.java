@@ -6,3 +6,5 @@ public class Main {
     }
 
     public static double diff(double x) {
+
+        double h = 0.0001;
