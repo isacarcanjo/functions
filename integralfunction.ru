@@ -7,3 +7,4 @@ def calculate_integral(x, y)
 	end	
 
 	answer = 0.0
+	a.each do |key, value|
