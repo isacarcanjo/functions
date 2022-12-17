@@ -13,3 +13,5 @@ def calculate_integral(x, y)
 
 	return answer
 end	
+
+calculate_integral(1, 'test.txt')
