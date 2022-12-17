@@ -10,3 +10,5 @@ def calculate_integral(x, y)
 	a.each do |key, value|
 		answer += value * x ** key
 	end	
+
+	return answer
