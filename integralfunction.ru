@@ -12,3 +12,4 @@ def calculate_integral(x, y)
 	end	
 
 	return answer
+end	
