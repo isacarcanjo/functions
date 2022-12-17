@@ -18,3 +18,5 @@ calculate_integral(1, 'test.txt')
 
 
 
+
+"""@author: github.com/isacarcanjo"""
