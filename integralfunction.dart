@@ -14,3 +14,4 @@ double integral(Function f, double a, double b, double dx) {
     sum += (dx * f(a));
   }
   return sum;
+}
