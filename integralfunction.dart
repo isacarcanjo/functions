@@ -12,3 +12,4 @@ double integral(Function f, double a, double b, double dx) {
   while(a < b) {
     a += dx;
     sum += (dx * f(a));
+  }
