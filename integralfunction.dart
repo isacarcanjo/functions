@@ -17,3 +17,4 @@ double integral(Function f, double a, double b, double dx) {
 }
 
 void main() {
+  print(integral(f, 0, 1, 0.01));
