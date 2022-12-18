@@ -15,3 +15,5 @@ double integral(Function f, double a, double b, double dx) {
   }
   return sum;
 }
+
+void main() {
