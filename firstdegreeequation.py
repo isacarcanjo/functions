@@ -12,3 +12,4 @@ def equation(a,b):
 
 
 """@author: github.com/isacarcanjo"""
+
