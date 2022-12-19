@@ -8,3 +8,4 @@ def equation(a,b):
         print((-b)/a)
 
 
+
