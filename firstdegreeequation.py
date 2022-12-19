@@ -7,3 +7,4 @@ def equation(a,b):
     else:
         print((-b)/a)
 
+
