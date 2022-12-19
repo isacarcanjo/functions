@@ -5,3 +5,4 @@ def equation(a,b):
     elif a==0 and b!=0:
         print("impossible")
     else:
+        print((-b)/a)
