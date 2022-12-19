@@ -4,3 +4,4 @@ def equation(a,b):
         print("indefinite")
     elif a==0 and b!=0:
         print("impossible")
+    else:
