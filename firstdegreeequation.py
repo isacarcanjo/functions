@@ -6,3 +6,4 @@ def equation(a,b):
         print("impossible")
     else:
         print((-b)/a)
+
