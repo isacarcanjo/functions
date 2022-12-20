@@ -17,3 +17,5 @@ function diff($a, $b, $h, $dif_function) {
     }
     return $diff_value;
 }
+
+$diff_value = diff(0, 4, 0.1, 'diff_function');
