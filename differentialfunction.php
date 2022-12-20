@@ -9,3 +9,4 @@ function diff($a, $b, $h, $dif_function) {
     $x = $a;
     $result = [];
     while ($x <= $b) {
+        $y = call_user_func($dif_function, $x, $h);
