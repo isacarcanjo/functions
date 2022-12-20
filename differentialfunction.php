@@ -15,3 +15,4 @@ function diff($a, $b, $h, $dif_function) {
         }
         $x += $h;
     }
+    return $diff_value;
