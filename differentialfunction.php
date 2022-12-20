@@ -13,3 +13,4 @@ function diff($a, $b, $h, $dif_function) {
         if (abs($y) < $h) {
             $diff_value += ($y * $h);
         }
+        $x += $h;
