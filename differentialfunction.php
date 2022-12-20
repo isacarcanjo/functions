@@ -14,3 +14,4 @@ function diff($a, $b, $h, $dif_function) {
             $diff_value += ($y * $h);
         }
         $x += $h;
+    }
